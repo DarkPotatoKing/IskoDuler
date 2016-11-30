@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>IskoDuler</title>
+<meta name="viewport" content="width-device-width, initial-scale=1.0">
+<style type="text/css">
+@import '//fonts.googleapis.com/css?family=Oswald';
+*  {
+	margin:0;
+	border:0;
+	padding:0;
+}
+body{
+		background: #F0F0F0;
+		font: 14px/20px Oswald;
+		color: #555;
+		margin:0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 200%;
+	line-height: 120%;
+	padding: 5% 5%;
+	margin-bottom: -20px;
+	font-family: Oswald;
+}
+
+h4{
+	margin-top: 5px;
+	font-size: 250%;
+	color: #FFF;
+
+}
+
+h2 {
+	text-decoration: underline;
+	line-height: 280%;
+	padding-left: 2%;
+}
+
+h3 {
+	line-height: 110%;
+	padding: 5% 0;
+}
+p{
+	font-size:160%;
+	line-height: 150%;
+
+	text-indent: 2%;
+	text-align: center;
+}
+
+img {
+	text-align: center;
+	max-width: 100%
+	height: auto;
+	width: auto;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	color: #FFF;
+	text-decoration: underline;
+}
+
+header {
+	background: #D96D63;
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	opacity: 0.90;
+}
+
+
+nav {
+	text-align: center;
+	padding: 5px 20px 100px 0px;
+}
+
+
+
+ul {
+	list-style: none;
+}
+
+nav ul li{
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+#doc {
+	margin: 40px 0;
+}
+
+#content{
+	margin: 0 auto;
+	max-width: 1140px;
+	margin-top: 200px
+}
+
+section {
+	width: 29%;
+	float: left;
+	margin: 2% 2%;
+	text-align: center;
+}
+
+.clear{
+	clear:both;
+}
+
+article {
+	text-align: center;
+	float: left;
+	margin: 0 auto;
+	width: 40%;
+	height: auto;
+	padding: 4%;
+}
+aside{
+	padding-top: 10%;
+	padding-right: 10%;
+	float: right;
+	margin: 0 auto;
+	width: 40%;
+	height: auto;
+}
+
+ul.gym li {
+	padding-left: 3%;
+}
+
+footer {
+	background: #333333;
+	width: 100%;
+	overflow: hidden;
+	opacity: 0.90;
+}
+
+footer p, footer h3 {
+	color: #FFF;
+}
+
+footer p a{
+	color:#FFF;
+text-decoration: none;
+}
+
+ul.social li{
+	display: inline;
+}
+
+ul.social li img{
+	height: 50px;
+}
+
+footer.second {
+	border-top: 1px solid #4D4E50
+	background-color: #333333;
+	max-height: 50 px;
+	text-align: center;
+	opacity: 0.95;
+}
+
+/*---------MEDIA--------*/
+
+@media screen and (max-width: 478px){
+	body{
+	position: absolute;
+	}
+}
+
+@media screen and (max-width: 740px){
+	header {
+		position: absolute;
+		height: 40px;
+	}
+	#bang{
+		margin-top: 50px;
+	}
+
+	nav{
+		text-align: center;
+	}
+	h4{
+		font-size: 180%;
+		margin-top: -20px;
+	}
+	#menu-icon {
+		display: inline-block;
+	}
+	<!--
+	nav ul, nav:active ul{
+		display: none;
+		position: absolute;
+		padding: 20 px;
+		background: #FFF;
+		border: 1px solid #FFF;
+		right: 20 px;
+		top: 60px;
+		width: 50%;
+		border-radius: 2px 0 2px 2px;
+	} -->
+	nav li {
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+		margin: 0;
+	}
+
+	nav: hover ul {
+		display: block;
+	}
+
+	#bang{
+		zoom: 0.5;
+	}
+	section{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	article{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+	aside{
+		float: left;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+}
+
+</style>
+</head>
+<body>
+	<header>
+		<nav>
+			<a href="#" id="menu-icon"></a>
+			<h4>IskoDuler</h4>
+		</nav>
+	</header>
+	<div class ="container">
+		<form>
+			<div class="form-input">
+				<input type="text" name="username">
+			</div>
+		</form>
+	</div>
+	<article>
+		<img src="https://s4.postimg.org/sn7y9cb1p/iskoduler.png"id="bang"><!--https://s18.postimg.org/ghy5gk32h/logo.png-->
+	</article>
+	<aside>
+	<h1>MAKE THE SMART CHOICE</h1>
+			<p id="top">IskoDuler is the perfect tool to help you
+			efficiently select your classes during pre-enlistment.
+			It shows you the probability of getting each subject so you
+			can correctly prioritize your rankings, and properly select which
+			class to take. Scroll down to learn how to use it.</p>
+	</aside>
+	<div class="clear"></div>
+	<h1 id="about_us"> How to use IskoDuler </h1>
+	<section>
+		<img src="https://s12.postimg.org/ju8j89wyl/screenshot1.png"/>
+		<h1>Step 1</h1>
+		<p>Drag and drop <a href="javascript:(function(){x = document.getElementsByClassName('preenlist_conflicts');if ($('#tr_class-info-head th').last().text().trim() == 'Probability'){$('#tr_class-info-head th').last().remove();for (i = 0; i < x.length; i++){$(x[i]).find('td').last().remove();}}slots_demand_info = [];probabilities = [];$('#tr_class-info-head').append('<th>&nbsp;&nbsp;Probability&nbsp;&nbsp;</th>');for (i = 0; i < x.length; i++) {s = $($(x[i]).children()[3]).text();s = s.substring(s.indexOf('[')+1, s.indexOf(']'));s = s.split('/');slots_demand_info.push([parseInt(s[0]), parseInt(s[2])]);}for (i = 0; i < slots_demand_info.length; i++) {p = slots_demand_info[i][0]/slots_demand_info[i][1];if (p >=1.0) p = 1.0;probabilities.push(p);}conflicting_classes = Object.keys(conflictlist);for (i = 0; i < conflicting_classes.length; i++){conflicting_classes[i] = parseInt(conflicting_classes[i]);}for (i = 0; i < conflicting_classes.length; i++){affected_classes = Object.keys(conflictlist[conflicting_classes[i]].conflicts);for (j = 0; j < affected_classes.length; j++){affected_classes[j] = parseInt(affected_classes[j]);}fl = function(x) { return x > conflicting_classes[i] };affected_classes = affected_classes.filter(fl);for (j = 0; j < affected_classes.length; j++){probabilities[affected_classes[j]-1] = probabilities[affected_classes[j]-1] * (1.0 - probabilities[conflicting_classes[i]-1]);}}for (i = 0; i < probabilities.length; i++) {probabilities[i] = parseInt(100 * probabilities[i] + 0.5);}for (i = 0; i < x.length; i++) {$(x[i]).append('<td>' + probabilities[i] + '%</td>');}})();
+">[IskoDuler]</a> (<-- click here) to your bookmarks. If your bookmarks toolbar is not visible follow the instructions in the links below.</p>
+    <p>
+        <a target="_blank" href="https://support.google.com/chrome/answer/95745?hl=en">[Chrome]</a>
+        <a target="_blank" href="https://support.mozilla.org/en-US/kb/bookmarks-toolbar-display-favorite-websites">[Firefox]</a>
+    </p>
+	</section>
+	<section>
+		<img src="https://s12.postimg.org/p71z05a8t/screenshot2.png"/>
+		<h1>Step 2</h1>
+		<p> Log in to your CRS account and go to the
+    <a target="_blank" href="https://crs.upd.edu.ph/preenlistment">pre-enlistment page</a>.
+    You should already have classes desired.</p>
+	</section>
+	<section>
+		<img src="https://s12.postimg.org/hscn7rod9/screenshot3.png"/>
+		<h1>Step 3</h1>
+		<p>Click on the bookmark and the probabilty will show as a new column. When you edit your pre-enlisted classes, click on the bookmark again to refresh the probabilities.</p>
+	</section>
+	<div class="clear"></div>
+		<footer>
+			<!--<section>
+				<h3><b>Bananas</b></h3>
+				<p><b>lalalalala</b><br><br>
+				flasdfkdskfalkds<br>
+				faskdfokasdfokdo<br>
+				odksfoaksdofkdof<br>
+				</p>
+			</section>
+			<section>
+				<h3>Social Media</h3>
+				<ul class="social">
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"></a></li>
+					<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"></a></li>
+				</ul>
+			</section>
+			<section>
+			<img src="http://www.w3newbie.com/wp-content/uploads/weight-lifter.png">
+			</section>-->
+		</footer>
+		<footer class ="second">
+			<p>DCS Dev Squad (DDS)</p>
+		</footer>
+</body>
+</html>
